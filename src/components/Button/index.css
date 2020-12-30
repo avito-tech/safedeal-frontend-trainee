@@ -1,0 +1,14 @@
+.Button-base {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4997d0;
+    height: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: normal;
+}

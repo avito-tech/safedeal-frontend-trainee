@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding: 15px 20px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-title {
+    font-weight: normal;
+    text-align: center;
+}
+
+.App-content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px 20px;
+}
+
+.App-footer {
+    position: absolute;
+    bottom: 15px;
+    width: calc(100% - 40px);
+    border-top: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.App-footer-title {
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ccc;
+}
